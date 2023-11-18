@@ -8,14 +8,70 @@
 </head>
 <body>
 
-    <nav>
+ <!--   <nav>
+        <a id="home" href="#">Home</a>
         <a  id="addRecipe" href="#"> Add recipe</a>
         <a id="viewRecipe" href="#"> view recipe</a>
-    </nav>
+        <a id="login" href="#" >login</a>
+    </nav> -->
     
+
+    <div class="nav-holder">
+
+        <div class="logo">
+            <a href="#"><img src="/img/logo.svg" ></a> 
+        </div>
+  
+        <nav>
+            <ul>
+                <li><a id="home" href="#">Home</a> </li>
+                <li><a id="browse" href="#">Browse</a> </li>
+                <li><a id="addRecipe" href="#">Create Recipe</a> </li>
+                <li><a id="viewRecipe" href="#"> Your Recipes</a></li>
+                <li class="login"><a id="login" href="#">Login</a> </li>
+            </ul>
+        </nav>
+  
+        <div id="hamburger" class="hamburger-icon" >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a id="home" href="#">Home</a> </li>
+                <li><a id="browse" href="#">Browse</a> </li>
+                <li><a id="addRecipe" href="#">Create Recipe</a> </li>
+                <li><a id="viewRecipe" href="#"> Your Recipes</a></li>
+                <li class="login"><a id="login" href="#">Login</a> </li>
+            </ul>
+        </div>
+  
+    </div>
+
+
     <div id="app">
        
     </div>
+
+
+    <footer>
+        <div class="copy">
+            <span>Copyright &copy; 2019 The Jungle Cook</span>
+        </div>
+        <div class="links">
+            <a id="login" href="#">Login</a>
+            <a href="#">Recipes by Category</a>
+            <a href="#">Privacy and Copyright</a>
+            <a id="addRecipe" href="#">Create Recipe</a>
+            <a  id="viewRecipe" href="#">Your Recipes</a>
+  
+        </div>
+        <div class="social">
+            <img src="/img/facebook.svg" alt="Facebook">
+            <img src="/img/instagram.svg" alt="Instagram">
+        </div>
+  
+  </footer>
+
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script type="module" src="app/model.js"></script>
     <script type="module" src="app/app.js"></script>
