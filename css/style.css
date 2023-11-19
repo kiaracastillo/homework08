@@ -191,6 +191,61 @@ cursor: pointer;
     background-repeat: no-repeat;
 
   }
+  .yr .pizza{
+    width: 522px;
+    height: 263px;
+    background-color: #EFA7A7;
+  }
+  .yr .pizza .imgpizza{
+    width: 300px;
+    height: 100%;
+    background-image: url(../img/recipe-pizza.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+  }
+  .yr .pizza .imgpizza a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd972;
+      border: 1px solid #ffd972;
+      border-radius: 50px;
+      width: 127px;
+      height: 42px;
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+      font-family: "Caveat", sans-serif;
+      color: #000000;
+
+  }
+  .yr .pizza .edbtn{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 270px;
+  }
+  .yr .pizza .edbtn a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #ffd972;
+      border: 1px solid #ffd972;
+      border-radius: 50px;
+      width: 127px;
+      height: 42px;
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+      font-family: "Caveat", sans-serif;
+      color: #000000;
+   
+  }
   .vr { 
 
     width: 522px; 
