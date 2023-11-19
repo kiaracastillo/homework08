@@ -10,7 +10,7 @@ var initialInstrCount = 3;
 
 function initListeners() { 
 
-$("nav a").on("click", (e) => { 
+$(" a").on("click", (e) => { 
 
 e.preventDefault(); 
 
