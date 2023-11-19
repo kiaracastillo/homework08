@@ -206,6 +206,8 @@ cursor: pointer;
     background-repeat: no-repeat;
     border-radius: 30px;
   }
+  
+
   .yr .pizza .imgpizza a{
     display: flex;
     align-items: center;
@@ -220,8 +222,12 @@ cursor: pointer;
       cursor: pointer;
       font-family: "Caveat", sans-serif;
       color: #000000;
+      text-align: center;
+      margin-left: 90px;
+      filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2588235294));
 
   }
+  
   .yr .pizza .edbtn{
   display: flex;
   align-content: center;
@@ -233,7 +239,7 @@ cursor: pointer;
     align-content: center;
     justify-content: center;
     align-items: center;
-    
+    filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2588235294));
     background-color: #ffd972;
       border: 1px solid #ffd972;
       border-radius: 50px;
@@ -246,6 +252,8 @@ cursor: pointer;
       color: #000000;
    
   }
+
+  
   .vr { 
 
     width: 522px; 
