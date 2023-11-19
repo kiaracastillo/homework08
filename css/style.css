@@ -288,6 +288,12 @@ cursor: pointer;
   height: 263px;
   display: flex;
   border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.yr .pizza .blockre .info{
+ text-align: center;
 }
 
   .vr { 
