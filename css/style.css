@@ -181,7 +181,7 @@ cursor: pointer;
 
   .yr{
     width: 100%;
-    height: 800px;
+    height: 100vh;
       
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 242, 200, 0.674)), to(rgba(84, 242, 200, 0.674))), url(../img/recipe-hero.jpg);
     background-image: linear-gradient(rgba(84, 242, 200, 0.674), rgba(84, 242, 200, 0.674)), url(../img/recipe-hero.jpg);
@@ -295,7 +295,32 @@ cursor: pointer;
 .yr .pizza .blockre .info{
  text-align: center;
 }
+.yr .pizza .blockre .info .time {
+  width: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yr .pizza .blockre .info .time .tim{
+  width: 23px;
+  height: 24px;
+  background-image: url(../img/time.svg);
+  margin-right: 10px;
 
+}
+
+.yr .pizza .blockre .info .num {
+  width: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yr .pizza .blockre .info .num .nu{
+  width: 23px;
+  height: 24px;
+  background-image: url(../img/servings.svg);
+  margin-right: 10px;
+}
   .vr { 
 
     width: 522px; 
