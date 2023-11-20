@@ -172,6 +172,23 @@ return htmlString;
 
 <ol> 
 
+${(() => { 
+
+    let htmlString = ""; 
+    
+    $.each(recipe.instructions, (idx, instruction) => { 
+    
+    let keyName = "description" + idx; 
+    
+    htmlString += `<li>${instruction[keyName]}</li>`; 
+    
+    }); 
+    
+    return htmlString; 
+    
+    })()}
+
+
 </ol> 
 
 </div> 
