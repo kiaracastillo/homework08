@@ -828,3 +828,81 @@ cursor: pointer;
         font-size: 10px;
       }
     }
+
+    /* pizza view */
+    .pizview {
+      width: 1300px;
+      display: block;
+      margin: 0 auto;
+      min-height: 1542px;
+      margin-top: -150px;
+    }
+    .pizview .viewc {
+      display: flex;
+      margin-top: 243px;
+      margin-bottom: 58px;
+      height: 421px;
+      width: 95%;
+      
+    }
+    .pizview .viewc .titlelateral {
+      position: absolute;
+      transform: rotate(-90deg);
+      left: 15px;
+      bottom: 230px;
+      font-size: 25px;
+      font-family: "Lato", sans-serif;
+      
+    }
+    .pizview .viewc .viewImg {
+      width: 50%;
+      margin-right: 45px;
+    }
+    .pizview .viewc .viewImg img {
+      height: 100%;
+      width: 100%;
+    }
+    .pizview .viewc .viewText {
+      width: 455px;
+      height: 100%;
+    }
+    .pizview .ingredList {
+      margin-bottom: 58px;
+    }
+    .pizview h1 {
+      font-size: 25px;
+      font-family: "Lato", sans-serif;
+      margin-bottom: 35px;
+    }
+    .pizview h2 {
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
+      margin-bottom: 35px;
+      margin-top: 35px;
+    }
+    .pizview li {
+      font-family: "Caveat", sans-serif;
+            font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .pizview p {
+      font-family: "Caveat", sans-serif;
+            font-size: 20px;
+    }
+    .pizview .editBtn {
+      margin-top: 62px;
+      background-color: #ffd972;
+      height: 42px;
+      width: 127px;
+      font-size: 20px;
+      font-family: "Caveat", sans-serif;
+            border-radius: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .pizview .editBtn a {
+      text-decoration: none;
+      color: black;
+    }
