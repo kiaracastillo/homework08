@@ -181,7 +181,7 @@ cursor: pointer;
 
   .yr{
     width: 100%;
-    height: 100vh;
+    height: 900px;
       
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 242, 200, 0.674)), to(rgba(84, 242, 200, 0.674))), url(../img/recipe-hero.jpg);
     background-image: linear-gradient(rgba(84, 242, 200, 0.674), rgba(84, 242, 200, 0.674)), url(../img/recipe-hero.jpg);
@@ -219,6 +219,34 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     background-image: url(../img/recipe-burger.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+  }
+  .yr .pizza .imgchick{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/recipe-pilaf.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+  }
+  .yr .pizza .imgchow{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/recipe-chowmein.jpg);
     background-blend-mode: normal;
     background-position: center;
     background-size: cover;
