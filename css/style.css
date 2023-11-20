@@ -212,6 +212,20 @@ cursor: pointer;
     
   }
   
+  .yr .pizza .imgburge{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/recipe-burger.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+  }
 
   .yr .pizza .imgpizza a{
     display: flex;
